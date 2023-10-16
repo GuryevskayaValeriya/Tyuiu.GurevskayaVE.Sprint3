@@ -9,17 +9,13 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task1.V24.Lib
 {
     public class DataService : ISprint3Task1V24
     {
-        public double GetMultiplySeries(double value)
+        public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
-            
-            int i = 1;
-            
             double res = 0;
-            while(i != 12)
+            while(startValue<=stopValue)
             {
-                res += Math.Pow(2 / (Math.Pow(value, i) + 6), i);
-                
-                i++;
+                res += Math.Pow(2 / (Math.Pow(value, startValue) + 6), startValue);
+                startValue++;
             }
             return Math.Round(res, 3);
         }

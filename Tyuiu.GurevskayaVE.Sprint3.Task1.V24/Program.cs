@@ -33,11 +33,17 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task1.V24
             DataService ds = new DataService();
 
             double value = 5;
+            int startValue = 1;
+            int stopValue = 12;
+
+            Console.WriteLine("Переменная = " + value);
+            Console.WriteLine("Старт шага = " + startValue);
+            Console.WriteLine("Конец шага = " + stopValue);
 
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double res = ds.GetMultiplySeries(value);
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
             Console.WriteLine("Результат: " + res);
 
             Console.ReadKey();
