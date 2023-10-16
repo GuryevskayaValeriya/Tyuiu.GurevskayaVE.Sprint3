@@ -11,11 +11,11 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task0.V8.Lib
     {
         public double GetSumSeries(double value)
         {
-            double a = 0.25;
-            double res = 0;
-            for (int k = 1; k<11; k++)
+            
+            double res = 1;
+            for (int k = 1; k<=10; k++)
             {
-                res = (Math.Pow(a, k) + 1) * Math.Cos(4);
+                res *= (Math.Pow(value, k) + 1) * Math.Cos(4);
             }
             return Math.Round(res,3);
         }

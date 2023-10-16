@@ -13,7 +13,7 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task0.V8.Test
             DataService ds = new DataService();
             double value = 0.25;
             double res = ds.GetSumSeries(value);
-            double wait = -0.654;
+            double wait = 0.019;
             Assert.AreEqual(wait, res);
         }
     }
