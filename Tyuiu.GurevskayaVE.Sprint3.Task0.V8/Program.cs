@@ -33,11 +33,17 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task0.V8
             DataService ds = new DataService();
 
             double value = 0.25;
+            int startValue = 1;
+            int stopValue = 10;
+
+            Console.WriteLine("Переменная = " + value);
+            Console.WriteLine("Старт шага = " + startValue);
+            Console.WriteLine("Конец шага = " + stopValue);
 
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double res = ds.GetSumSeries(value);
+            double res = ds.GetSumSeries(value, startValue, stopValue);
             Console.WriteLine("Результат: " + res);
 
             Console.ReadKey();
