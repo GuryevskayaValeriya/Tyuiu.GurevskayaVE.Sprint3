@@ -14,7 +14,7 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task1.V24
             Console.Title = "Спринт #3 | Выполнила: Гурьевская В.Е. | ПКТб-23-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Операции сравнения                                                *");
+            Console.WriteLine("* Тема: Оператор while                                                    *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #24                                                             *");
             Console.WriteLine("* Выполнила: Гурьевская В.Е. | ПКТб-23-2                                  *");
