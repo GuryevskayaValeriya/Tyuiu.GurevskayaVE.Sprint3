@@ -14,7 +14,7 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task5.V29
             Console.Title = "Спринт #3 | Выполнила: Гурьевская В.Е. | ПКТб-23-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Использование операторов continue и break в циклах                *");
+            Console.WriteLine("* Тема: Вложенные циклы                                                   *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #29                                                             *");
             Console.WriteLine("* Выполнила: Гурьевская В.Е. | ПКТб-23-2                                  *");
