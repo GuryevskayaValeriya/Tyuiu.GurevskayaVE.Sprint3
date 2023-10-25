@@ -54,17 +54,17 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task7.V21
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("+----------+----------+");
-            Console.WriteLine("|   x      |    f(x)  |");
-            Console.WriteLine("+----------+----------+");
+            Console.WriteLine("+----------+-----------+");
+            Console.WriteLine("|   x      |    f(x)   |");
+            Console.WriteLine("+----------+-----------+");
 
             for (int i = 0; i<=len-1; i++)
             {
-                Console.WriteLine("|{0,5:d}     |   {1, 5:f2}  |", startValue, valueArray[i]);
+                Console.WriteLine("|{0,5:d}     |   {1, 6:f2}  |", startValue, valueArray[i]);
                 startValue++;
             }
 
-            Console.WriteLine("+----------+----------+");
+            Console.WriteLine("+----------+-----------+");
 
             Console.ReadKey();
         }
