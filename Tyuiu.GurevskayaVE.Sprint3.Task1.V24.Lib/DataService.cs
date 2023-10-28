@@ -9,10 +9,10 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task1.V24.Lib
 {
     public class DataService : ISprint3Task1V24
     {
-        public double GetMultiplySeries(double value, int startValue, int stopValue)
+        public double GetSumSeries(int value, int startValue, int stopValue)
         {
             double res = 0;
-            while(startValue<=stopValue)
+            while (startValue <= stopValue)
             {
                 res += Math.Pow(2 / (Math.Pow(value, startValue) + 6), startValue);
                 startValue++;

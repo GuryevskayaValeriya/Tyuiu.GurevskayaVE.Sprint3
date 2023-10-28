@@ -32,7 +32,7 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task1.V24
 
             DataService ds = new DataService();
 
-            double value = 5;
+            int value = 5;
             int startValue = 1;
             int stopValue = 12;
 
@@ -43,7 +43,7 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task1.V24
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double res = ds.GetMultiplySeries(value, startValue, stopValue);
+            double res = ds.GetSumSeries(value, startValue, stopValue);
             Console.WriteLine("Результат: " + res);
 
             Console.ReadKey();
