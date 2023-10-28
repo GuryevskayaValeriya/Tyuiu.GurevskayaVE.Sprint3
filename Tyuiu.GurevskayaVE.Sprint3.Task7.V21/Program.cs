@@ -33,7 +33,7 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task7.V21
             Console.WriteLine("***************************************************************************");
 
             DataService ds = new DataService();
-
+             
 
             int startValue = -5;
             int stopValue = 5;
