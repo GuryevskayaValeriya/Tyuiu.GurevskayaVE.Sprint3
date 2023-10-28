@@ -43,7 +43,7 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task0.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double res = ds.GetSumSeries(value, startValue, stopValue);
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
             Console.WriteLine("Результат: " + res);
 
             Console.ReadKey();

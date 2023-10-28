@@ -14,7 +14,7 @@ namespace Tyuiu.GurevskayaVE.Sprint3.Task0.V8.Test
             int startValue = 1;
             int stopValue = 10;
             double value = 0.25;
-            double res = ds.GetSumSeries(value, startValue, stopValue);
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
             double wait = 0.019;
             Assert.AreEqual(wait, res);
         }
